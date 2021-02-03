@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3__content {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
 
+.t_h,
+.t_d {
+  border: solid #dedede 1px;
+  padding: 10px;
+}
+
+.t_body .t_r:last-child {
+  border-top: dashed #000 2px;
+}
+
+.t_h {
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #2244aa;
+}
+
+.t_r:nth-child(even) {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */

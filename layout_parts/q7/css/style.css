@@ -39,12 +39,17 @@
 }
 
 /* 3 */
+.inline-inner {
+  font-size: 0;
+}
+
 .inline-box {
+  font-size: 16px;
   width: 225px;
   margin-left: 50px;
   display: inline-block;
   box-sizing: border-box;
-  
+  vertical-align: middle;
 }
 
 .inline-box:first-child {
@@ -65,16 +70,23 @@
 
 /* 5 */
 .margin--inner {
-  
+  font-size: 0;
 }
 
 .margin--box {
+  font-size: 16px;
   display: inline-block;
-  margin-left: 50px;
+  vertical-align: top;
 }
 
 .margin--box:first-child {
   width: 300px;
-  margin-left: 0;
+}
+
+.is-flexible {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 /* 回答はここに書いてね */

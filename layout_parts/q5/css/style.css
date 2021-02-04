@@ -12,10 +12,10 @@
 .q5__box {
   width: 100px;
   height: 100px;
-  text-align: center;
   line-height: 100px;
-  font-weight: bold;
   font-size: 30px;
+  font-weight: bold;
+  text-align: center;
   position: absolute;
 }
 

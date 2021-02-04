@@ -2,29 +2,34 @@
 
 /* 回答はここに書いてね */
 .q3__content {
-  table-layout: fixed;
   width: 100%;
+  table-layout: fixed;
   text-align: center;
 }
 
-.t_h,
-.t_d {
-  border: solid #dedede 1px;
+th,
+td {
   padding: 10px;
+  border: solid #dedede 1px;
 }
 
-.t_body .t_r:last-child {
-  border-top: dashed #000 2px;
-}
-
-.t_h {
+th {
   font-size: 18px;
   line-height: 26px;
   color: #fff;
   background-color: #2244aa;
 }
 
-.t_r:nth-child(even) {
+td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.t_body tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+.t_body tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */

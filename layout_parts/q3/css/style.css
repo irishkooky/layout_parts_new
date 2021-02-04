@@ -7,29 +7,28 @@
   text-align: center;
 }
 
-th,
-td {
+.q3__content th, .q3__content td {
   padding: 10px;
   border: solid #dedede 1px;
 }
 
-th {
+.q3__content th {
   font-size: 18px;
   line-height: 26px;
   color: #fff;
   background-color: #2244aa;
 }
 
-td {
+.q3__content td {
   font-size: 16px;
   line-height: 22px;
 }
 
-.t_body tr:last-child {
+.q3__content .t_body tr:last-child {
   border-top: dashed #000 2px;
 }
 
-.t_body tr:nth-child(even) {
+.q3__content .t_body tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */

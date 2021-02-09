@@ -40,6 +40,7 @@
   display: inline-block;
 }
 
+/* q6-2 */
 .is-flex {
   display: flex;
   align-items: center;
